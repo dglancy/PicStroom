@@ -1,5 +1,7 @@
 # PicStroom — iPad
 
+![Logo](https://github.com/dglancy/PicStroom/blob/main/PicStroom-iPad/Default-Landscape~ipad.png)
+
 > **Historical archive.** This repository is read-only. The code is preserved as-is from the final shipped state.
 
 PicStroom was an iPad app that aggregated images from multiple sources into a side-scrolling photo gallery. Users subscribed to "Strooms" — streams of images pulled from RSS/web feeds or Dropbox folders — and browsed them in a single unified view.
