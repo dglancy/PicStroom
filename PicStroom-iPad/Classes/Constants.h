@@ -47,29 +47,29 @@ ToolbarPosition;
 /* Pro Version */
 //#define PICSTROOM_PRO_VERSION                           YES
 //#define PICSTROOM_VERSION                               @"Version 1.3 PRO"
-//#define FLURRY_APP_KEY @"2IX6DHBMUXJJBHQXWUJ1" /* PRODUCTION KEY FOR PICSTROOM PRO IPAD*/
+//#define FLURRY_APP_KEY @"XXX" /* PRODUCTION KEY FOR PICSTROOM PRO IPAD*/
 /* END of Pro Version */
 
 /* IAP Version */
 #define PICSTROOM_PRO_VERSION                               NO
 #define PICSTROOM_VERSION                                   @"Version 1.3"
-//#define FLURRY_APP_KEY @"7R1VI6XYCPM5IV22CUEN" /* PRODUCTION KEY FOR PICSTROOM IPAD*/
+//#define FLURRY_APP_KEY @"XXX" /* PRODUCTION KEY FOR PICSTROOM IPAD*/
 /* END of IAP Version */
 
 /* Test Version */
 #warning TEST FLURRY KEY -- REPLACE BEFORE PRODUCTION BUILD
-#define FLURRY_APP_KEY                                      @"8PNF6LWBG24P82WSGXFJ" /* TEST KEY -- REPLACE BEFORE PRODUCTION BUILD */
+#define FLURRY_APP_KEY                                      @"XXX" /* TEST KEY -- REPLACE BEFORE PRODUCTION BUILD */
 /* END of Test Version */
 
 #define DEFAULT_OPERATION_COUNT                             3
 
 #define USER_AGENT                                          @"Mozilla/5.0 (compatible; PicStroom; iPad; http://www.picstroom.com)"
 
-#define DROPBOX_KEY                                         @"ddsnt8la17y9j2c"
-#define DROPBOX_SECRET                                      @"avacrc248g6psyk"
+#define DROPBOX_KEY                                         @"XXX"
+#define DROPBOX_SECRET                                      @"XXX"
 
-#define INSTAPAPER_KEY                                      @"h0gW54YxGwKojXRQQ46dvuOeo4MQgHn4TcWpCdXeYjYWuL2T4q"
-#define INSTAPAPER_SECRET                                   @"bdJXNOuwmvx3mxOdBCoyE4vvMLPUgqMXkf3GmRlOv14l4rsdsU"
+#define INSTAPAPER_KEY                                      @"XXX"
+#define INSTAPAPER_SECRET                                   @"XXX"
 
 #define GALLERY_URL                                         @"http://data.picstroom.com/gallery-strooms.plist"
 #define INITIAL_STROOMS_URL                                 @"http://data.picstroom.com/initial-strooms.plist"      // IAP version
