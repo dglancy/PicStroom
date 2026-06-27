@@ -1,0 +1,47 @@
+//
+//  PicStroomSetDropboxSaveFolderViewController.h
+//  PicStroom
+//
+//  Created by Damien Glancy on 17/04/2011.
+//  Copyright 2011 Damien Glancy & Jeroen Hermkens. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "DBRestClient.h"
+
+@class PicStroomDropboxRootFolderTableCell;
+
+@interface PicStroomSetDropboxSaveFolderViewController : UITableViewController <DBRestClientDelegate> {
+    NSString *rootPath;
+
+    UITableView *setDropboxSaveFolderTableView;
+    DBRestClient *restClient;
+
+    NSMutableArray *currentDropboxFilePaths;
+    BOOL rootFolderAlreadyAdded;
+
+    PicStroomDropboxRootFolderTableCell *dropboxRootFolderCell;
+}
+@property (nonatomic, retain) IBOutlet UITableView *setDropboxSaveFolderTableView;
+@property (nonatomic, retain) NSString *rootPath;
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Actions
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void) didPressDone;
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Local utils
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (NSString *) displayRootPath:(NSString *)rawPath;
+- (NSString *) displayPath:(NSString *)rawPath;
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Dropbox Parser Callbacks
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (DBRestClient *) restClient;
+
+@end
